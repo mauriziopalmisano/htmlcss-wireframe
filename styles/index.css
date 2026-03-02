@@ -45,3 +45,17 @@ main {
 .titolo-articolo {
     margin-bottom: 10px;
 }
+
+/* modifica del footer per renderlo fisso in fondo alla pagina e centrato, 
+aggiunta di max-width a header e footer per evitare
+che si allarghino troppo su schermi grandi. */
+footer {
+    border-top: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    background-color: white;
+    width: 100%;
+    max-width: 508px;
+}
