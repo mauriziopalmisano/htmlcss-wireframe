@@ -24,4 +24,19 @@ body {
     background-color: white;
     width: 100%;
     max-width: 508px;
-} 
+}
+ 
+/*modifica del main per evitare che il testo finisca
+sosotto header e footer. */
+main {
+    width: 70%;
+    margin: 120px auto 80px auto; 
+}
+
+/* creata la classe articolo per creane le caselle degli articoli  */
+.articolo {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+}
